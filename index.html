@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-02(JS)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section
+      id="home"
+      class="home d-flex flex-column align-items-center flex-nowrap justify-content-center">
+      <div class="">
+        <div class="screen">
+          <div class="screen__content">
+            <form class="login">
+              <div class="login-div">
+                 <div class="login__field">
+                <i class="login__icon fas fa-user"></i>
+                <input type="text" class="login__input" placeholder="User name / Email"id="login-username">
+              </div>
+              <div class="login__field">
+                <i class="login__icon fas fa-lock"></i>
+                <input type="password" class="login__input" placeholder="Password"id="login-password">
+              </div>
+              </div>
+              <div  class="signup-div">
+                 <div class="login__field">
+                <i class="login__icon fas fa-user"></i>
+                <input type="text" class="login__input" placeholder="Enter your name" id="signup-username">
+              </div>
+              <div class="login__field">
+                <i class="login__icon fas fa-lock"></i>
+                <input type="text" class="login__input" placeholder="Enter your E-mail"id="signup-useremail">
+              </div>
+              <div class="login__field">
+                <i class="login__icon fas fa-lock"></i>
+                <input type="password" class="login__input" placeholder="Enter your password"id="signup-userpassword">
+              </div>
+              </div>
+              <div class="login-button-div">
+                <div>
+                  <button class="button login__submit" id="actionButton">
+                <span class="button__text" >Log In Now</span> 
+                <i class="button__icon fas fa-chevron-right"></i>
+              </button> 
+                </div>
+             
+             <div>
+              <a href="" class="noAccount" id="noAccount">don't have account</a>	
+             </div> 		
+              </div>
+             
+            </form>
+            <div class="social-login">
+              <h3>log in via</h3>
+              <div class="social-icons">
+                <a href="#" class="social-login__icon fab fa-instagram"></a>
+                <a href="#" class="social-login__icon fab fa-facebook"></a>
+                <a href="#" class="social-login__icon fab fa-twitter"></a>
+              </div>
+            </div>
+          </div>
+          <div class="screen__background">
+            <span class="screen__background__shape screen__background__shape4"></span>
+            <span class="screen__background__shape screen__background__shape3"></span>		
+            <span class="screen__background__shape screen__background__shape2"></span>
+            <span class="screen__background__shape screen__background__shape1"></span>
+          </div>		
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
